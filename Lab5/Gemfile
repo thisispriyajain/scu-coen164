@@ -1,0 +1,17 @@
+source "https://rubygems.org"
+
+# gem "rails"
+ruby '3.2.2'
+gem "sinatra"
+gem "sinatra-reloader"
+gem "dm-core"
+gem "dm-migrations"
+gem "thin"
+gem "data_mapper"
+gem 'do_sqlite3'
+gem 'sqlite3'
+gem 'dm-sqlite-adapter'
+gem 'falcon'
+gem 'puma' 
+#gem 'HTTP'
+gem 'webrick'
