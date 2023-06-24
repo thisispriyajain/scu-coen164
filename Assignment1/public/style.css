@@ -1,0 +1,93 @@
+div.header {
+	background-color: #FFC0CB;
+	padding: 1px;
+	color: black;
+	text-align: center;
+}
+
+form.login, form.signup {
+	font-family: Arial;
+	font-size: 18px;
+	font-color: black;
+}
+
+#loginButton {
+	margin-left: 175px;
+	font-size: 18px;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+}
+
+input {
+	border: 1px solid black;
+	margin: 10px;
+	margin-right: 100px;
+}
+
+#signupButton {
+	margin-left: 0px;
+}
+
+body {
+	outline: 2px black;
+	font-family: Arial;
+	font-size: 14px;
+	font-color: #484848;
+}
+
+#betButton {
+	margin-left: 0px;
+	background-color: #FFFFFF;
+}
+
+div.topLeft {
+	float: left;
+}
+
+div.topRight {
+	margin: 5px;
+	float: right;
+	border: 1px solid black;
+	width: 15%;
+}
+
+.topRight label {
+	margin: 10px;
+}
+
+.topRight input {
+	margin: 10px;
+}
+
+div.bottom {
+	float: left;
+	width: 65%;
+}
+
+div.container {
+	border: 1px solid black;
+}
+
+.row p {
+	margin: 10px;
+	margin-bottom: 0px;
+}
+
+.row input {
+	margin-right: 10px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 33%;
+}
+
+#logoutButton {
+	float: left;
+	margin-left: 0px;
+}
